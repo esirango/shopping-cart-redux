@@ -1,0 +1,98 @@
+.Container {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: #333333;
+  background-color: #fff;
+
+  margin: 10px;
+  border-radius: 5px;
+  text-align: center;
+  box-shadow: 0px 5px 24px rgba(149, 157, 165, 0.4);
+  transition: all ease-in 0.3s;
+  border: solid 2px #d5d5d5;
+  margin-top: 100px;
+}
+
+.Container:hover {
+  box-shadow: 33px 39px 24px -20px rgba(114, 130, 143, 0.69);
+  -webkit-box-shadow: 33px 39px 24px -20px rgba(114, 130, 143, 0.69);
+  -moz-box-shadow: 33px 39px 24px -20px rgba(114, 130, 143, 0.69);
+}
+
+.ContainerImg {
+  width: 200px;
+  height: 250px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.ContainerContent {
+  padding: 50px 10px 0 10px;
+  text-align: left;
+}
+
+.Container a {
+  text-decoration: none;
+  color: #1a73e8;
+  display: inline-block;
+}
+.tags {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 40px 0 10px 0;
+}
+
+.Container button {
+  background-color: #1a73e8;
+  color: #ffffff;
+  border: none;
+  border-radius: 3px;
+  transition: all ease 0.2s;
+  text-align: center;
+  margin: 0 5px;
+  box-shadow: 0px 4px 12px -2px rgba(50, 50, 93, 0.25),
+    0px 3px 7px -3px rgba(0, 0, 0, 0.3);
+}
+
+.buttons {
+  width: 180px;
+  height: 30px;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+
+.addButton {
+  padding: 8px 22px;
+}
+
+.smallButtons {
+  padding: 5px;
+  font-size: 1.5rem;
+  width: 30px;
+  height: 30px;
+  line-height: 20px;
+}
+
+.smallButtons img {
+  width: 20px;
+}
+
+.Container button:hover {
+  background-color: #0b499b;
+  cursor: pointer;
+}
+
+.Container p {
+  font-weight: 500;
+  margin-top: 20px;
+}
+
+.quantityCount {
+  color: #1a73e8;
+  font-weight: bold;
+  text-align: center;
+  width: 20px;
+  font-size: 1.2rem;
+}
